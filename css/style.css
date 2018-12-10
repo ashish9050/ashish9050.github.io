@@ -1191,3 +1191,57 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
+#pgopinath{
+  margin-left:150px;
+}
+#spotlights {
+  margin-left:-150px;
+}
+.hihi {
+  color:whitesmoke;
+}
+
+#call-to-action ul {
+  color:whitesmoke;
+}
+#call-to-action li {
+  padding:20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.hulk {
+  list-style: none !important;
+}
+.nav-menu a {
+  font-size: 20px;
+}
+#header {
+  top:-10px;
+}
+#header.header-fixed {
+  height:85px;
+}
+#accordian-heading{
+  font-weight:900;
+  font-family:serif;
+  color:#1f5a9a;
+}
+#team h1 {
+  font-weight:900;
+  font-family:serif;
+  color:#ab3647;
+}
