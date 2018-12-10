@@ -991,6 +991,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 2px;
 }
 
+#postdoctoral {
+  margin-bottom: 15px;
+  height: 260px;
+}
 /* Gallery Section
 --------------------------------*/
 #gallery {
