@@ -129,3 +129,23 @@ jQuery(document).ready(function($) {
   // custom code
 
 });
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    navText:["<i class='fa fa-arrow-left'></i>","<i class='fa fa-arrow-right'></i>"],
+    autoplay: true,
+    autoplayTimeout: 3000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
