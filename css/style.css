@@ -42,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #spotlight{
  margin-top:5px;
- height:68vh;
  background:#d8dee4;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -74,7 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  margin-top: 8vh;
+  margin-top:50px;
   padding: 30px 0;
   height: 92px;
   position: fixed;
@@ -123,7 +122,6 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-fixed {
   background: linear-gradient(45deg, #3d81ca, #bd213096);
   padding: 20px 0;
-  height: 72px;
   transition: all 0.5s;
 }
 
@@ -273,6 +271,7 @@ h1, h2, h3, h4, h5, h6 {
 #nav-menu-container {
   float: right;
   margin: 0;
+  
 }
 
 @media (max-width: 768px) {
@@ -302,6 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   background: #fff;
+  text-align: center;
 }
 
 .nav-menu ul li {
@@ -450,12 +450,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-description {
   text-align: center;
-    padding-bottom: 40px;
-    color: #c17373;
+    
+    color: #291818;
     font-style: italic;
 
     font-weight: 600;
     font-size: 125%;
+    text-align: center;
+}
+.section-header ul {
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+.section-header li {
+    list-style: none;
+    color: #291818;
+    font-weight: 600;
+    text-align: center;
 }
 
 .section-header .section-divider {
@@ -947,6 +958,60 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: "\f2c7" !important;
 }
 
+
+#faq #faq-list1 {
+  padding: 0;
+  list-style: none;
+  visibility: visible !important;
+}
+
+#faq #faq-list1 li {
+  border-bottom: 1px solid #ddd;
+}
+
+#faq #faq-list1 a {
+  padding: 18px 0;
+  display: block;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 300;
+  padding-right: 20px;
+}
+
+#faq #faq-list1 i {
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+}
+
+#faq #faq-list1 p {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  #faq #faq-list1 a {
+    font-size: 18px;
+  }
+  #faq #faq-list1 i {
+    top: 13px;
+  }
+}
+
+#faq #faq-list1 a.collapse {
+  color: #1dc8cd;
+}
+
+#faq #faq-list1 a.collapsed {
+  color: #000;
+}
+
+#faq #faq-list1 a.collapsed i::before {
+  content: "\f2c7" !important;
+}
+
 /* Our Team Section
 --------------------------------*/
 #team {
@@ -1231,11 +1296,10 @@ tr:nth-child(even) {
 .nav-menu a {
   font-size: 20px;
 }
-#header {
-  top:-10px;
-}
+
+
 #header.header-fixed {
-  height:85px;
+  /* height:85px; */
 }
 #accordian-heading{
   font-weight:900;
